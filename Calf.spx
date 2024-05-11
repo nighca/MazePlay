@@ -1,9 +1,9 @@
 onStart => {
-	setXYpos -204, 145
+	setXYpos -193, 145
 	for {
 		if touching("Maze") {
 			play mhit
-			setXYpos -204, 145
+			setXYpos -193, 145
 		}
 		if touching("Red") {
 			say "You win"

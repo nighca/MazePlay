@@ -36,7 +36,7 @@ func (this *Calf) Main() {
 //line Calf.spx:1:1
 	this.OnStart(func() {
 //line Calf.spx:2:1
-		this.SetXYpos(-204, 145)
+		this.SetXYpos(-193, 145)
 //line Calf.spx:3:1
 		for {
 			spx.Sched()
@@ -45,7 +45,7 @@ func (this *Calf) Main() {
 //line Calf.spx:5:1
 				this.Play__0(this.mhit)
 //line Calf.spx:6:1
-				this.SetXYpos(-204, 145)
+				this.SetXYpos(-193, 145)
 			}
 //line Calf.spx:8:1
 			if this.Touching("Red") {
